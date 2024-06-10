@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="https://cdn.stpulscen.ru/system/ckeditor_assets/pictures/433164/content_free-icon-shopping-cart-181598.png">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+
+    <style>
+        #map {
+            width: 600px;
+            height: 400px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="All_header_menu">
+            <div class="Logo">
+            <h1>Lik.Art</h1>
+            </div>
+            <div class="Top_menu">
+                <ul>
+                    <li><a href="Index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="Onas.html">О нас</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                    <li><a href="Reg.html">Личный кабинет</a></li>
+                </ul>
+           </div> 
+        </div>
+    </header>
+<body>
+
+    <div class="map-container">
+        <div id="map"></div>
+        <script>
+            ymaps.ready(init);
+    
+            function init() {
+                var myMap = new ymaps.Map("map", {
+                    center: [56.254387,90.478046], // Координаты центра карты (например, центр России)
+                    zoom: 17 // Уровень масштабирования карты
+                });
+    
+                myMap.controls.remove('searchControl');
+                myMap.controls.remove('trafficControl');
+                myMap.controls.remove('typeSelector');
+                myMap.controls.remove('geolocationControl');
+                myMap.controls.remove('fullscreenControl');
+                myMap.controls.remove('rulerControl');
+            }
+        </script>
+        </div>
+
+        <div class="Naz1">
+
+    <h1>Наши контакты</h1>
+    <h1>Вы всегда можете связаться с нами</h1>
+
+    </div>
+
+    <div class="contacts1">
+        <p>Можете найти нас на карте</p>
+    </div>   
+
+    <div class="Naz3"><h2>Контакты магазина Lik.Art</div>
+
+    <div class="Naz2">
+        
+            <div class="contacts">
+                <p>Наш адрес: Гагарина, 27</p>
+                <p>Телефон: +7 (123) 456-78-90</p>
+                <p>Email: Lik.Art@likart.com</p>
+                <a href="https://vk.com/shoplik_art" class="vk-link">
+                <img src="Фото/vk.png">Группа в контакте </a>
+            </div>
+        
+    </div>
+
+    
+
+    <footer>
+    <center><p>&copy; Cувенирный магазин Lik.Art</p></center>
+    </footer>       
+</body>
+</html>
