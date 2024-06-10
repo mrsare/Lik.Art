@@ -1,0 +1,475 @@
+/* Стили для широких экранов (например, для десктопов) */
+@media only screen and (min-width: 1200px) {
+    /* Ваши стили здесь */
+}
+
+/* Стили для планшетов */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+    /* Ваши стили здесь */
+}
+
+/* Стили для мобильных устройств */
+@media only screen and (max-width: 767px) {
+    /* Ваши стили здесь */
+}
+
+/* Шапка сайтов */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+        color: white;
+        background-image: url(https://sun27-2.userapi.com/impg/yxfLS7ZogsYpm4nlFM3dPQIoENbrqCfpjTzHhQ/828aLqOdmMg.jpg?size=1920x1080&quality=95&sign=d113cdc90daeb146182160efec2ab77b&type=album);
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+}
+
+.Logo,.Top_menu{
+    margin-right: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.Logo h1 {
+    vertical-align: middle;
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    color: white;
+    }
+
+.Top_menu li{
+    margin-right: 25px;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+}
+.Top_menu a{
+    vertical-align: middle;
+    font-family: 'Times New Roman';
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.Top_menu a:hover{
+color: orange;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+/* Новинки */
+.Шкатулка1 {
+    width: 500px;
+    height: auto px;
+}
+
+.Рубик1 {
+    width: 500px;
+    height: auto px;
+}
+.Гарии1 {
+    width: 500px;
+    height: auto px;
+}
+
+/* Каталог */
+
+.card {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    }
+
+img {
+    max-width: 100%;
+}
+
+.price {
+    font-weight: bold;
+    color: #4B0082;
+
+}
+
+button {
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.Katalog {
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-bottom: auto;
+        
+}
+
+
+
+
+/* О нас */
+.text {
+    
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    font-size: 30px;
+    margin-left: 100px; 
+    margin-right: 100px; 
+    margin-top: 200px;
+    margin-bottom: 220px;
+	text-indent: 70px;
+	p {
+		font-size: 23px; /* Здесь можно указать любое желаемое значение для размера текста */
+		text-align: justify;
+	}
+	
+}
+
+.Лого {
+    float: left; /* Добавляем отступ слева */
+    margin-left: 100px; 
+    margin-right: 80px; 
+    margin-top: 200px;
+    width: 500px; /* Задаем ширину картинки */
+    height: 400px; /* Задаем высоту картинки */
+    border-radius: 100px;
+        
+}
+
+
+/* Главная */
+
+.container1 {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 30px;
+	
+	
+    img {
+        max-width: 70%; /* Максимальная ширина изображения */
+        max-height: 400px; /* Максимальная высота изображения */
+    }
+    
+	}
+
+
+.product {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 380px;
+}
+
+h3 {
+    font-size: auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+/* Контакты */
+
+.contacts {
+    margin-right: 100px; 
+    margin-top: 50px;
+    margin-bottom: 250px;
+
+p {
+    font-size: 40px;
+    line-height: 1.5;
+}   
+
+}
+
+.contacts1 {
+
+	p {
+		font-size: 40px;
+		margin-left: 915px;
+		margin-top: 30px;
+	}
+}
+
+.Naz1 {
+	text-align: center;
+	margin-top:30px ;
+}
+
+.Naz2 {
+
+    margin-top: 30px;
+    margin-left: 100px;
+
+}
+
+.Naz3 {
+	margin-top: 50px;
+	margin-left: 100px;
+	font-size: 30px
+	
+}
+
+/* Группа вк */
+a {
+    font-size: 40px;
+    line-height: 1.5;
+    color: white;
+	text-decoration: none;
+}
+
+.vk-link {
+	display: inline-block;
+  }
+  
+  .vk-link img {
+	width: 50px; /* ширина логотипа */
+	height: auto; /* автоматическая высота */
+  }
+
+
+
+.map-container {
+	margin-top: auto;
+	margin-right: 400px;
+   	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+}
+
+#map {
+	width: 100%; /* Укажите нужную ширину карты */
+	height: 400px; /* Укажите нужную высоту карты */
+	[class*="copyrights-pane"] {
+		display: none !important;
+	  }
+}
+
+
+
+
+/* Регистрация */
+
+* {
+	margin: 0;
+	padding: 0;	
+	font-family: sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 640px;
+	margin-bottom: 170px;
+	margin-top: 30px;
+	
+}
+
+.screen {		
+	background: linear-gradient(90deg, #D2691E, #ffffff);		
+	position: relative;	
+	height: 600px;
+	width: 360px;	
+	box-shadow: 0px 0px 24px #fff;
+	
+}
+
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+	
+	p {
+		color: rgb(43, 23, 1);
+		font-size: 35px;
+		margin-top: 50px;
+		margin-left: 80px;
+		font-family: 'Times New Roman', sans-serif; /* Шрифт Times New Roman или любой другой */
+   		font-weight: bold; /* Жирный стиль */  
+	}
+}
+
+.screen__content1 {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+	
+	p {
+		color: rgb(43, 23, 1);
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: 10px;
+		font-family: 'Times New Roman', sans-serif; /* Шрифт Times New Roman или любой другой */
+   		font-weight: bold; /* Жирный стиль */  
+	}
+}
+
+.screen__background {			
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+	
+}
+
+.screen__background__shape {
+	transform: rotate(45deg);
+	position: absolute;
+}
+
+.screen__background__shape1 {
+	height: 520px;
+	width: 520px;
+	background: #FFF;	
+	top: -50px;
+	right: 120px;	
+	border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+	height: 220px;
+	width: 220px;
+	background: #D2691E;	
+	top: -172px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape3 {
+	height: 540px;
+	width: 190px;
+	background: linear-gradient(270deg, #D2691E, #532503);
+	top: -24px;
+	right: 0;	
+	border-radius: 32px;
+}
+
+.screen__background__shape4 {
+	height: 400px;
+	width: 200px;
+	background: #D2691E;	
+	top: 420px;
+	right: 50px;	
+	border-radius: 60px;
+}
+
+.login {
+	width: 320px;
+	padding: 30px;
+	padding-top: 100px;
+
+}
+
+.login__field {
+	padding: 10px 0px;	
+	position: relative;	
+}
+
+.login__icon {
+	position: absolute;
+	top: 30px;
+	color: #D2691E;
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: 700;
+	width: 75%;
+	transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+	outline: none;
+	border-bottom-color: #D2691E;
+}
+
+.login__submit {
+	background: #fff;
+	font-size: 14px;
+	margin-top: 10px;
+	padding: 16px 20px;
+	border-radius: 26px;
+	border: 1px solid #D2691E;
+	text-transform: uppercase;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	color: #D2691E;
+	box-shadow: 0px 2px 2px #D2691E;
+	cursor: pointer;
+	transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+	border-color: #D2691E;
+	outline: none;
+}
+
+.button__icon {
+	font-size: 24px;
+	margin-left: auto;
+	color: #D2691E;
+	}
+
+.social-login {	
+	position: absolute;
+	height: 140px;
+	width: 160px;
+	text-align: center;
+	bottom: 0px;
+	right: 0px;
+	color: #fff;
+}
+
+.social-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-login__icon {
+	padding: 20px 10px;
+	color: #fff;
+	text-decoration: none;	
+	text-shadow: 0px 0px 8px #D2691E;
+}
+
+.social-login__icon:hover {
+	transform: scale(1.5);	
+}
